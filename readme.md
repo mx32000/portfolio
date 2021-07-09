@@ -11,14 +11,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 ## Project Description
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My project is a portfolio site that includes information about me and the projects I have made.
 ## Portfolio I want to Emulate
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)%7C landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [thechenkitchen.wordpress.com](https://thechenkitchen.wordpress.com/) | navbar style
+|[mirandagong.com](https://www.mirandagong.com/) | hover effect |
+| [mattfarley.ca](http://mattfarley.ca/) |  skill page idea |
+| [samcasey.info/index.html](https://samcasey.info/index.html) | nav bar disappears, reappears when scrolling up (mobile)
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
