@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
 header .header {
     display: flex;
     align-items: center;
@@ -29,7 +34,7 @@ header .header h1 {
     transform: translateX(-50%); */
     padding: 20px 0px;
     font-size: 32px;
-    margin: auto;
+    margin: 0 auto;
     /* position: absolute; */
 }
 
@@ -103,7 +108,19 @@ section h2 {
 
 #contact p {
     font-size: 18px;
-    padding-bottom: 30px;
+}
+
+#contact form {
+    padding: 20px;
+}
+
+#contact form .form-group {
+    padding: 5px;
+}
+
+#contact form button {
+    background-color: rgb(73, 17, 126);
+    border: none;
 }
 
 
