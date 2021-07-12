@@ -23,9 +23,14 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
-Wireframing Resources:
+- [Mobile 1](https://res.cloudinary.com/dcdasnmmz/image/upload/v1626100211/portfolio/mobile1_tuxuhk.jpg)
+- [Mobile 2](https://res.cloudinary.com/dcdasnmmz/image/upload/v1626100213/portfolio/mobile2_iygzxm.jpg)
+- [Mobile 3](https://res.cloudinary.com/dcdasnmmz/image/upload/v1626100208/portfolio/mobile3_usajqy.jpg)
+- [Desktop Home](https://res.cloudinary.com/dcdasnmmz/image/upload/v1626100209/portfolio/home_vajrxq.jpg)
+- [Desktop About Me](https://res.cloudinary.com/dcdasnmmz/image/upload/v1626100685/portfolio/aboutme_pdfxzq.jpg)
+- [Desktop Projects](https://res.cloudinary.com/dcdasnmmz/image/upload/v1626100205/portfolio/projects_n6ny6w.jpg)
+- [Desktop Contact](https://res.cloudinary.com/dcdasnmmz/image/upload/v1626100204/portfolio/contact_v5zt3q.jpg)
+### Wireframing Resources:
 - [Mockflow](https://mockflow.com/app/#Wireframe)
 - [Figma](https://www.figma.com/)
 ## Time/Priority Matrix 
@@ -49,25 +54,26 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Hamburger | H | 2hr | hr |
+| Project Cards | H | 3hr |  hr |
+| Regular Nav | H | 1hr |  hr |  
+| Adding Form | H | 2hr|   hr | 
+| Skills grid | L | 3hr |  hr |
+| Header | H | 2hr|  hr | 
+| Responsive | H | 2hr | hr |  hr |
+| Footer | L | 1hr |  hr |
+| Paragraph Sections | H | 3hr |  hr |
+| Total | H | 19 hr |  hr |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Header Appear on scroll up (mobile) | L | 2hr |  hr |
+| Get form working | H | 2hr |  hr |
+| Image behind header | L | 3hr |  hr |
+| Link effects | L | 2hr |  hr |
+| Have desktop go to new pages instead of scroll | H | 3hr |  hr |
+| Improve icon | L | 2hr |  hr |
+| Total | H | 21hr |  hr |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ## Code Snippet
