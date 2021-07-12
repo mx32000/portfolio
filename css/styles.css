@@ -19,10 +19,15 @@ header .header img {
 }
 
 header .header h1 {
-    margin: auto;
+    /* comment portions for larger size */
+    /* flex: 0 1 auto;
+    left: 50%;
+    transform: translateX(-50%); */
     padding: 20px 0px;
     font-size: 32px;
     text-align: center;
+    margin: auto;
+    /* position: absolute; */
 }
 
 header nav.navbar {
@@ -43,8 +48,15 @@ header nav.navbar .navbar-collapse .navbar-nav {
     align-items: center;
     justify-content: center;
     font-size: 24px;
+    margin: auto;
 }
 
+#home {
+    font-weight: bold;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
 
 
 /* to make sure my name is on one line for smaller phones (I only care about down to 300, though) */

@@ -59,10 +59,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Regular Nav | H | 1hr |  hr |  
 | Adding Form | H | 2hr|   hr | 
 | Skills grid | L | 3hr |  hr |
-| Header | H | 2hr|  1 hr | 
+| Header | H | 2hr|  1.5 hr | 
 | Responsive | H | 2hr | hr |  hr |
 | Footer | L | 1hr |  hr |
-| Paragraph Sections | H | 3hr |  hr |
+| Paragraph Sections | H | 3hr | .25 hr |
 | Total | H | 19 hr |  hr |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
