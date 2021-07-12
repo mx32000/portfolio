@@ -52,18 +52,33 @@ header nav.navbar .navbar-collapse .navbar-nav {
 }
 
 #home {
-    font-weight: bold;
+    font-weight: 500;
     padding: 30px;
     font-size: 20px;
 }
 
-#projects {
+.projects {
+    padding: 10px;
     display: grid;
+    grid-template: repeat(auto-fill) / 1fr;
+    gap: 20px;
 }
 
 .card {
     width: 18rem;
+    margin: auto;
 }
+
+.card .card-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .card-links .card-link {
+    background-color: rgb(73, 17, 126);
+    border: none;
+}
+
 
 
 /* to make sure my name is on one line for smaller phones (I only care about down to 300, though) */

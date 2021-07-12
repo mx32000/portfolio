@@ -8,8 +8,8 @@ $.ajax("./json/projects.json")
         const $title = $("<h5>").addClass("card-title").text(`${project.name}`);
         const $description = $("<p>").addClass("card-text").text(`${project.description}`);
         const $links = $("<div>").addClass("card-links");
-        const $github = $("<a>").addClass("btn btn-primary").attr("href", `${project.github}`).text("Code");
-        const $deployed = $("<a>").addClass("btn btn-primary").attr("href", `${project.deployed}`).text("Link");
+        const $github = $("<a>").addClass("btn btn-primary card-link").attr("href", `${project.github}`).text("Code");
+        const $deployed = $("<a>").addClass("btn btn-primary card-link").attr("href", `${project.deployed}`).text("Link");
 
         $links.append($github, $deployed);
         $body.append($title, $description, $links);
