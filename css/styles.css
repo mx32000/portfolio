@@ -1,7 +1,10 @@
-body {
-    margin: auto;
-    background-color: rgb(199, 173, 231);
+* {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(199, 173, 231);
     text-align: center;
 }
 
@@ -51,34 +54,57 @@ header nav.navbar .navbar-collapse .navbar-nav {
     margin: auto;
 }
 
-#home {
-    font-weight: 500;
-    padding: 30px;
-    font-size: 20px;
+section {
+    padding: 30px 0px;
 }
 
-.projects {
+section h2 {
+    font-size: 32px;
+    padding: 30px;
+}
+
+#home {
+    padding: 40px 30px 10px 30px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#projects .projects {
     padding: 10px;
     display: grid;
     grid-template: repeat(auto-fill) / 1fr;
     gap: 20px;
 }
 
-.card {
+#projects .projects .card {
     width: 18rem;
     margin: auto;
 }
 
-.card .card-links {
+#projects .projects .card .card-links {
     display: flex;
     justify-content: space-around;
+    margin: 5px;
 }
 
-.card .card-links .card-link {
+#projects .projects .card .card-links .card-link {
     background-color: rgb(73, 17, 126);
     border: none;
 }
 
+#about {
+    padding: 20px;
+    font-size: 18px;
+}
+
+#contact h2 {
+    padding-bottom: 10px;
+}
+
+#contact p {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
 
 
 /* to make sure my name is on one line for smaller phones (I only care about down to 300, though) */

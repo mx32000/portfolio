@@ -55,14 +55,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 2hr | .5 hr |
-| Project Cards | H | 3hr |  hr |
+| Project Cards | H | 3hr | 1.5hr |
 | Regular Nav | H | 1hr |  hr |  
 | Adding Form | H | 2hr|   hr | 
 | Skills grid | L | 3hr |  hr |
 | Header | H | 2hr|  1.5 hr | 
 | Responsive | H | 2hr | hr |  hr |
 | Footer | L | 1hr |  hr |
-| Paragraph Sections | H | 3hr | .25 hr |
+| Paragraph Sections | H | 3hr | .5 hr |
 | Total | H | 19 hr |  hr |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -75,8 +75,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Improve icon | L | 2hr |  hr |
 | Total | H | 21hr |  hr |
 ## Additional Libraries
- jQuery: for jQuery stuff
- Boostrap: for navbar
+ - jQuery: for jQuery stuff
+ - Bootstrap: for navbar
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 ```
