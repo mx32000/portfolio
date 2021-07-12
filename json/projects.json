@@ -4,6 +4,22 @@
       "description":"dsfdfsdfsdf",
       "github": "http://...",
       "deployed": "http://...",
-      "image": "http://..."
+      "image": "./img/icon.png"
+    },
+
+    {
+        "name": "dfsdfsfsdf",
+        "description":"dsfdfsdfsdf",
+        "github": "http://...",
+        "deployed": "http://...",
+        "image": "./img/icon.png"
+    },
+
+    {
+        "name": "dfsdfsfsdf",
+        "description":"dsfdfsdfsdf",
+        "github": "http://...",
+        "deployed": "http://...",
+        "image": "./img/icon.png"
     }
   ]

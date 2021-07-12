@@ -58,7 +58,11 @@ header nav.navbar .navbar-collapse .navbar-nav {
 }
 
 #projects {
-    
+    display: grid;
+}
+
+.card {
+    width: 18rem;
 }
 
 
