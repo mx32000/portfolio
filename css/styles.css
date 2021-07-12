@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+    background-color: rgb(199, 173, 231);
+    box-sizing: border-box;
+}
+
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(73, 17, 126);
+    color: rgb(199, 173, 231);
+    min-height: 100px;
+}
+
+header .header img {
+    height: 40px;
+    margin: 10px;
+}
+
+header .header h1 {
+    margin: auto;
+    padding: 20px 0px;
+    font-size: 32px;
+    text-align: center;
+}
+
+header nav.navbar {
+    background-color: #7953B2;
+}
+
+header nav.navbar .container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+header nav.navbar .navbar-collapse .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+
+
+/* to make sure my name is on one line for smaller phones (I only care about down to 300, though) */
+@media screen and (max-width: 340px) {
+    header .header h1 {
+        font-size: 24px;
+    }
+}
