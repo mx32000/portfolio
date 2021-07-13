@@ -81,8 +81,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 ```
-// code to take in a list of skills and icons, sort, and add to html
-// (styling already in css)
+/* code to take in a list of skills and icons, sort, and add to html */
+/* (styling already in css) */
+/* if doesn't match i or img, just don't do anything - I'm entering data, so should be okay */
 $.ajax("./json/skills.json")
 .then(data => {
     data.sort((a,b) => (a.name > b.name) ? 1 : -1)
@@ -97,14 +98,15 @@ $.ajax("./json/skills.json")
                 `<img src="${skill.icon}"></img>${skill.name}`
             );
         } else {
-            continue;
+            return;
         }
         $ul.append($skill);
     })
 })
+.catch(error => {console.log(error)});
 ```
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+
+**ERROR**: Uncaught SyntaxError: Illegal continue statement: no surrounding iteration statement <br>
+**RESOLUTION**: Since forEach is calling a function for each thing, it's not a loop. Instead of continue, I needed to use return
