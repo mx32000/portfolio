@@ -24,6 +24,8 @@ const $skills = $(".skills");
 const $ul = $("<ul>");
 $skills.append($ul);
 
+// if the data has an invalid tag, just don't add
+// since I'm the one entering the data, this seems okay
 $.ajax("./json/skills.json")
 .then(data => {
     data.sort((a,b) => (a.name > b.name) ? 1 : -1)
@@ -37,6 +39,8 @@ $.ajax("./json/skills.json")
             $skill.html(
                 `<img src="${skill.icon}"></img>${skill.name}`
             );
+        } else {
+            continue;
         }
         $ul.append($skill);
     })

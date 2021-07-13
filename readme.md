@@ -81,9 +81,27 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+// code to take in a list of skills and icons, sort, and add to html
+// (styling already in css)
+$.ajax("./json/skills.json")
+.then(data => {
+    data.sort((a,b) => (a.name > b.name) ? 1 : -1)
+    data.forEach(skill => {
+        const $skill = $("<li>")
+        if (skill.tag === "i") {
+            $skill.html(
+                `<i class="${skill.icon}"></i>${skill.name}`
+            );
+        } else if (skill.tag === "img") {
+            $skill.html(
+                `<img src="${skill.icon}"></img>${skill.name}`
+            );
+        } else {
+            continue;
+        }
+        $ul.append($skill);
+    })
+})
 ```
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
