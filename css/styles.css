@@ -115,6 +115,7 @@ section h2 {
 
 #contact form {
     padding: 20px;
+    margin: 0 auto;
 }
 
 #contact form .form-group {
@@ -146,5 +147,39 @@ footer i.fa-linkedin-square {
 @media screen and (max-width: 345px) {
     header .header h1 {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #projects .projects {
+        grid-template: 1fr / 1fr 1fr;
+    }
+    header .header h1 {
+        position: absolute;
+        flex: 0 1 auto;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #contact form {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    #projects .projects {
+        grid-template: 1fr / 1fr 1fr 1fr;
+    }
+
+    header nav.navbar.navbar-expand-lg .navbar-collapse .navbar-nav {
+        justify-content: space-around;
+        font-size: 24px;
+        width: 100%;
+        margin: 0 25%;
+    }
+
+    #contact form {
+        width: 50%;
     }
 }

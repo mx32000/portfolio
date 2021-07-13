@@ -54,21 +54,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | 1.5 hr |
+| Hamburger | H | 2hr | 2hr |
 | Project Cards | H | 3hr | 1.5hr |
-| Regular Nav | H | 1hr |  hr |  
+| Regular Nav | H | 1hr | .5hr |  
 | Adding Form | H | 2hr| 1hr | 
 | Skills grid | L | 3hr |  hr |
 | Header | H | 2hr|  1.5 hr | 
-| Responsive | H | 2hr | hr |  hr |
-| Footer | L | 1hr |  hr |
+| Responsive | H | 2hr | hr | 1hr |
+| Footer | L | 1hr |  1hr |
 | Paragraph Sections | H | 3hr | 1 hr |
 | Total | H | 19 hr |  hr |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Nav appear on scroll up (mobile) | L | 2hr |  hr |
-| Get form working | H | 2hr |  hr |
+| Get form working | H | 2hr |  .5hr |
 | Image behind header | L | 3hr |  hr |
 | Link effects | L | 2hr |  hr |
 | Have desktop go to new pages instead of scroll | H | 3hr |  hr |
