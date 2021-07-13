@@ -125,13 +125,21 @@ section h2 {
     width: 100%;
 }
 
-#skills ul li i {
-    height: fit-content;
-    width: fit-content;
+#skills ul li i, #skills ul li img {
     background-color:rgb(226, 215, 240);
     color:rgb(73, 17, 126);
     padding: 10px;
     margin-bottom: 5px;
+}
+
+#skills ul li i {
+    height: fit-content;
+    width: fit-content;
+}
+
+#skills ul li img {
+    height: 52px;
+    width: 44px;
 }
 
 #contact h2 {

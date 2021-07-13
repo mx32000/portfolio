@@ -58,7 +58,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Project Cards | H | 3hr | 1.5hr |
 | Regular Nav | H | 1hr | .5hr |  
 | Adding Form | H | 2hr| 1hr | 
-| Skills grid | L | 3hr | 1.5hr |
+| Skills grid | L | 3hr | 3hr |
 | Header | H | 2hr|  1.5 hr | 
 | Responsive | H | 2hr | hr | 1hr |
 | Footer | L | 1hr |  1hr |

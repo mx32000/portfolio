@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Java",
+        "tag": "i",
+        "icon": "fab fa-java fa-2x"
+    },
+
+    {
+        "name": "Python",
+        "tag": "i",
+        "icon": "fab fa-python fa-2x"
+    },    
+    
+    {
+        "name": "Javascript",
+        "tag": "i",
+        "icon": "fab fa-js-square fa-2x"
+    },    
+    
+    {
+        "name": "HTML",
+        "tag": "i",
+        "icon": "fab fa-html5 fa-2x"
+    },    
+    
+    {
+        "name": "CSS",
+        "tag": "i",
+        "icon": "ab fa-css3-alt fa-2x"
+    },    
+    
+    {
+        "name": "Play Framework",
+        "tag": "img",
+        "icon": "https://avatars.githubusercontent.com/u/319107?s=280&v=4"
+    }
+]

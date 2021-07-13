@@ -19,3 +19,25 @@ $.ajax("./json/projects.json")
     })
 })
 .catch(error => {console.log(error)});
+
+const $skills = $(".skills");
+const $ul = $("<ul>");
+$skills.append($ul);
+
+$.ajax("./json/skills.json")
+.then(data => {
+    data.sort((a,b) => (a.name > b.name) ? 1 : -1)
+    data.forEach(skill => {
+        const $skill = $("<li>")
+        if (skill.tag === "i") {
+            $skill.html(
+                `<i class="${skill.icon}"></i>${skill.name}`
+            );
+        } else if (skill.tag === "img") {
+            $skill.html(
+                `<img src="${skill.icon}"></img>${skill.name}`
+            );
+        }
+        $ul.append($skill);
+    })
+})
