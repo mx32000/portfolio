@@ -77,6 +77,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Additional Libraries
  - jQuery: for jQuery stuff
  - Bootstrap: for navbar
+ - Font Awesome: linkedin icon
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 ```

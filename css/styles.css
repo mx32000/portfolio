@@ -8,9 +8,10 @@ body {
     text-align: center;
 }
 
-header {
+body header {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 header .header {
@@ -18,8 +19,9 @@ header .header {
     align-items: center;
     justify-content: flex-start;
     background-color: rgb(73, 17, 126);
-    color: rgb(199, 173, 231);
+    color: rgb(226, 215, 240);
     min-height: 100px;
+    width: 100%;
 }
 
 header .header img {
@@ -40,6 +42,7 @@ header .header h1 {
 
 header nav.navbar {
     background-color: #7953B2;
+    width: 100%;
 }
 
 header nav.navbar .container-fluid {
@@ -121,6 +124,21 @@ section h2 {
 #contact form button {
     background-color: rgb(73, 17, 126);
     border: none;
+}
+
+body footer {
+    display: flex;
+    min-height: 50px;
+    background-color: rgb(73, 17, 126);
+    color: rgb(226, 215, 240);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+footer i.fa-linkedin-square {
+    /* color: #0177B5; */
+    color: rgb(226, 215, 240);
 }
 
 
