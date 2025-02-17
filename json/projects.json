@@ -1,25 +1,9 @@
 [
     {
-      "name": "dfsdfsfsdf",
-      "description":"dsfdfsdfsdf",
-      "github": "http://...",
-      "deployed": "http://...",
-      "image": "./img/icon.png"
-    },
-
-    {
-        "name": "dfsdfsfsdf",
-        "description":"dsfdfsdfsdf",
-        "github": "http://...",
-        "deployed": "http://...",
-        "image": "./img/icon.png"
-    },
-
-    {
-        "name": "dfsdfsfsdf",
-        "description":"dsfdfsdfsdf",
-        "github": "http://...",
-        "deployed": "http://...",
-        "image": "./img/icon.png"
+      "name": "Song Searcher",
+      "description":"Made using JavaScript, CSS, and HTML, this app connects to the Spotify API to allow you to search for an artist's top songs.",
+      "github": "https://github.com/mx32000/song-searcher",
+      "deployed": "https://gracious-gates-c0f47a.netlify.app/",
+      "image": "./img/songsearcher.png"
     }
   ]
