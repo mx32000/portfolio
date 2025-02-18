@@ -33,5 +33,11 @@
         "name": "Play Framework",
         "tag": "img",
         "icon": "https://avatars.githubusercontent.com/u/319107?s=280&v=4"
+    },
+
+    {
+        "name": "Ruby on Rails",
+        "tag": "img",
+        "icon": "./img/purplerails.png"
     }
 ]
