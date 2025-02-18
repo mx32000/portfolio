@@ -32,12 +32,18 @@
     {
         "name": "Play Framework",
         "tag": "img",
-        "icon": "https://avatars.githubusercontent.com/u/319107?s=280&v=4"
+        "icon": "./img/purpleplay.png"
     },
 
     {
         "name": "Ruby on Rails",
         "tag": "img",
         "icon": "./img/purplerails.png"
+    },
+
+    {
+        "name": "React",
+        "tag": "i",
+        "icon": "fa-brands fa-react fa-2x"
     }
 ]
